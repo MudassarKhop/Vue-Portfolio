@@ -9,13 +9,21 @@
 			</div>
 			<div id="heading">Mudassar Khopatkar</div>
 			<div id="heading2">
-				<i>friendly neighbourhood aspiring web-developer</i>
-				<div id="icons">
-					<i class="fa-brands fa-instagram"></i>
-					<i class="fa-brands fa-github"></i>
-					<i class="fa-brands fa-twitter"></i>
-					<i class="fa-brands fa-linkedin"></i>
-				</div>
+				<i>~ friendly neighbourhood aspiring web-developer ~</i>
+			</div>
+			<div id="icons">
+				<a href="https://www.instagram.com/mudathierkop/" target="blank"
+					><i class="fa-brands fa-instagram"></i
+				></a>
+				<a href="https://github.com/MudassarKhop" target="blank"
+					><i class="fa-brands fa-github"></i
+				></a>
+				<a href="" target="blank"><i class="fa-brands fa-twitter"></i></a>
+				<a
+					href="https://www.linkedin.com/in/mudassar-khopatkar-a9854023a/"
+					target="blank"
+					><i class="fa-brands fa-linkedin"></i
+				></a>
 			</div>
 		</section>
 	</body>
@@ -36,7 +44,7 @@
 	body {
 		margin: 0;
 		padding: 0;
-		height: 97vh;
+		height: 87vh;
 		overflow: hidden;
 		display: flex;
 		align-items: center;
@@ -64,7 +72,7 @@
 	}
 
 	.content > div {
-		--line: #47c;
+		--line: rgb(207, 0, 62);
 		position: absolute;
 		width: 70%;
 		height: 70%;
@@ -169,14 +177,15 @@
 	#heading2 {
 		font-size: 25px;
 		position: relative;
-		top: -330px;
+		top: -345px;
 		left: -20px;
+		text-shadow: 3px 3px black;
 	}
 	/* icons */
 	#icons {
 		position: relative;
 		left: 630px;
-		top: -420px;
+		top: -710px;
 	}
 	.fa-brands {
 		padding-right: 10px;
@@ -261,5 +270,5 @@
 			#405de6 #5851db #833ab4 #c13584 #e1306c #fd1d1d
 		);
 	}
-	/* icons */
+	/* icons*/
 </style>
