@@ -9,8 +9,9 @@
 			</div>
 			<div id="heading">Mudassar Khopatkar</div>
 			<div id="heading2">
-				<i>~ friendly neighbourhood aspiring web-developer ~</i>
+				<i>~ friendly neighborhood aspiring web-developer ~</i>
 			</div>
+
 			<div id="icons">
 				<a href="https://www.instagram.com/mudathierkop/" target="blank"
 					><i class="fa-brands fa-instagram"></i
@@ -44,12 +45,35 @@
 	body {
 		margin: 0;
 		padding: 0;
-		height: 87vh;
+		height: 100vh;
 		overflow: hidden;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background: radial-gradient(circle at 50% 50%, #222, #111, #080808);
+		background: hsla(234, 84%, 15%, 1);
+
+		background: radial-gradient(
+			circle,
+			hsla(234, 84%, 15%, 1) 9%,
+			hsla(271, 96%, 9%, 1) 58%,
+			hsla(259, 100%, 8%, 1) 100%
+		);
+
+		background: -moz-radial-gradient(
+			circle,
+			hsla(234, 84%, 15%, 1) 9%,
+			hsla(271, 96%, 9%, 1) 58%,
+			hsla(259, 100%, 8%, 1) 100%
+		);
+
+		background: -webkit-radial-gradient(
+			circle,
+			hsla(234, 84%, 15%, 1) 9%,
+			hsla(271, 96%, 9%, 1) 58%,
+			hsla(259, 100%, 8%, 1) 100%
+		);
+
+		filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#060C47", endColorstr="#18012D", GradientType=1 );
 	}
 	/* radial background */
 	.content {
@@ -72,7 +96,7 @@
 	}
 
 	.content > div {
-		--line: rgb(207, 0, 62);
+		--line: #67b3e4;
 		position: absolute;
 		width: 70%;
 		height: 70%;
@@ -187,6 +211,7 @@
 		left: 630px;
 		top: -710px;
 	}
+
 	.fa-brands {
 		padding-right: 10px;
 	}
